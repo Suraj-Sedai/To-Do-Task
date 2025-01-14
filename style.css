@@ -1,0 +1,367 @@
+/*
+Spring2024
+Will Briggs
+This file style.css contain the styling of the whole page styling 
+Suraj Sedai
+
+*/
+/* CSS for body */
+:root {
+    --text-color-light: #333; /* Default text color for light mode */
+    --text-color-dark: #fff; /* Default text color for dark mode */
+  }
+/* CSS for input fields */
+input[type="text"],
+input[type="date"],
+input[type="password"],
+input[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  color: var(--text-color-light); /* Default text color */
+}
+  
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0; /* Remove default margin */
+}
+/* Dark mode styles */
+body.dark-mode {
+    background-color: #353b48; /* Dark background color */
+    color: #fff; /* White text color */
+}
+
+.dark-mode h2 {
+    color: #fff; /* White text color */
+}
+/* Dark mode styles for header */
+body.dark-mode header {
+    background-color: #1c394b; /* Blue background color */
+}
+/* Dark mode styles for login form */
+body.dark-mode .login-form {
+    background-color: #1c394b ; /* Dark background color for login form */
+    color: #fff; /* White text color */
+}
+body.dark-mode .register-form {
+    background-color: #1c394b ; /* Dark background color for login form */
+    color: #fff; /* White text color */
+}
+body.dark-mode .user-info {
+    background-color: #1c394b ; /* Dark background color for login form */
+    color: #fff; /* White text color */
+}
+.dark-mode form input[type="text"],
+.dark-mode form input[type="date"],
+.dark-mode form input[type="password"],
+.dark-mode form input[type="submit"] {
+    background-color: #222f3e;
+    color: #fff;
+    border: 1px solid #ccc;
+}
+
+.dark-mode form input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.dark-mode .task-box,
+.dark-mode .event-box {
+    background-color: #333;
+    color: #fff;
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.1);
+    border-radius: 20px;
+
+}
+
+.dark-mode .delete-button {
+    background-color: #f44336;
+    color: white;
+}
+
+.dark-mode .delete-button:hover {
+    background-color: #d32f2f;
+}
+body.dark-mode .container {
+    background-color: #3e4648; /* Dark background color for container */
+    color: #fff; /* White text color for container */
+    box-shadow: 2px 2px 10px rgba(255, 255, 255, 0.1);
+
+}
+
+
+/* Add more styles for dark mode as needed */
+
+
+/* Add more styles for dark mode as needed */
+
+/* CSS for the container div */
+.container {
+    max-width: 600px;
+    margin: 20px auto; /* Center the container horizontally */
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #333;
+}
+
+/* Styling of the input and submit button */
+form input[type="text"],
+form input[type="date"],
+form input[type="password"],
+form input[type="submit"] 
+{
+    width: calc(100% - 22px); /* Adjust width to accommodate padding and border */
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box; /* Include padding and border in the width calculation */
+}
+
+/* CSS for submit */
+form input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+}
+
+/* CSS for task container */
+.task-box {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #dcdde1;
+    box-shadow: 0px 0px 10px rgba(26, 26, 26, 0.1);
+    cursor: pointer;
+    border-radius: 20px;
+    transition: transform 0.2s ease; /* Add transition for smooth movement */
+
+    /* Add transition property for smooth transformation */
+}
+
+.task-box:hover {
+    transform: scale(1.1); /* Scale the element on hover */
+}
+
+    /*CSS for the container div*/
+    
+.container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+/*CSS for heading*/
+
+h2 {
+    color: #333;
+}
+/*styling of the input and submit botton*/
+
+form input[type="text"],
+form input[type="date"],
+form input[type="password"],
+form input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+/*CSS for submit*/
+
+form input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+}
+/*CSS for event container*/
+
+.event-box {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+/*CSS for paragraph of event container*/
+
+.event-box p {
+    margin: 5px 0;
+}
+/*CSS for delete button*/
+
+.delete-button {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 16px;
+    cursor: pointer;
+}
+
+.delete-button:hover {
+    background-color: #d32f2f;
+}
+/* Header styles */
+header {
+    background-color: #3498db; /* Blue background color */
+    color: #fff; /* White text color */
+    padding: 15px; /* Add padding */
+    text-align: center; /* Center-align text */
+    transition: background-color 0.5s ease-in-out; /* Smooth background color transition */
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+
+}
+img{
+    width: 100px;
+    height: 100px;
+}
+/* Navigation styles */
+nav ul {
+    list-style-type: none; /* Remove default list style */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    text-align: center; /* Center-align text */
+}
+
+nav ul li {
+    display: inline; /* Display list items inline */
+    margin-right: 20px; /* Add right margin between list items */
+}
+button{
+    margin-left: 25%;
+    color: #5173c4; /* Blue text color */
+    font-weight: bold; /* Make text bold */
+    font-size: 20px; /* Set font size */
+    transition: color 0.3s ease-in-out; /* Smooth text color transition */
+    background: #fff; /* White background color */
+    padding: 10px; /* Add padding */
+    border-radius: 10px; /* Add border radius */
+}
+
+
+
+/* Main content styles */
+main {
+    flex: 1; /* Expand and fill remaining space */
+    padding: 20px; /* Add padding */
+}
+
+/* Footer styles */
+footer {
+    background-color: #2c3e50; /* Dark blue background color */
+    color: #fff; /* White text color */
+    padding: 10px; /* Add padding */
+    text-align: center; /* Center-align text */
+    width: 100%; /* Occupy full width */
+    bottom: -90px;
+    position: relative;
+    transition: background-color 0.5s ease-in-out; /* Smooth background color transition */
+}
+
+
+/* CSS for paragraph inside task container */
+.task-box p {
+    margin: 5px 0;
+}
+
+/* CSS for delete button */
+.delete-button {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 16px;
+    cursor: pointer;
+    margin-top: 10px; /* Add some spacing between task content and delete button */
+}
+
+.delete-button:hover {
+    background-color: #d32f2f;
+}
+.login-form {
+    width: 20%;
+    margin: 20px; /* Add some margin for spacing */
+    padding: 15px;
+    float: right;
+    background: #3498db;
+    border-radius: 10px;
+    margin-top: 100px;
+}
+.register-form {
+    width: 20%;
+    margin: 20px; /* Add some margin for spacing */
+    padding: 15px;
+    float: right;
+    background: #3498db;
+    border-radius: 10px;
+    margin-top: 100px;
+}
+
+.register-form input[type="text"],
+.register-form input[type="password"],
+.register-form input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+.login-form {
+    /* Your existing styles for the login form */
+    position: relative;
+}
+
+.user-info {
+    /* Additional styles for the user-info section */
+    position: relative;
+    width: 20%;
+    margin: 20px; /* Add some margin for spacing */
+    padding: 15px;
+    float: right;
+    background: #3498db;
+    border-radius: 10px;
+    margin-top: 100px;
+    border-radius: 20px;
+}
+/* Your existing CSS */
+
+/* Add styles for the user-info section */
+.user-info {
+    float: right;
+    margin-right: 20px;
+}
+
+.user-info p {
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+button{
+    margin-left: 25%;
+
+}
+.user-info a {
+    color: #5173c4; /* Blue text color */
+    font-weight: bold; /* Make text bold */
+    font-size: 20px; /* Set font size */
+    transition: color 0.3s ease-in-out; /* Smooth text color transition */
+    background: #fff; /* White background color */
+    padding: 10px; /* Add padding */
+    border-radius: 10px; /* Add border radius */
+    text-decoration: none;
+}
+
+.user-info a:hover {
+    background-color: #555;
+}
