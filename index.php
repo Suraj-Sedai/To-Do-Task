@@ -1,5 +1,4 @@
-<!--Spring2024
-Will Briggs
+<!--
 This file index.php contain the main element of the main page
 also have different function to peform the database stuffs, including deleteting, also 
 it looks for all other things except header and footer

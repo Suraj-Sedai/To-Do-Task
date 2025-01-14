@@ -1,5 +1,4 @@
-<!--Spring2024
-Will Briggs
+<!--
 This file header.php contain the header element of the main page
 also it contain the login and registation stuffs in it and all the database to handle 
 that things

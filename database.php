@@ -1,5 +1,4 @@
-<!--Spring2024
-Will Briggs
+<!--
 This file database.php handle the insert task data, whether to put it on database or to delete it
 Suraj Sedai
 -->

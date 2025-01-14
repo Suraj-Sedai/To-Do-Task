@@ -1,5 +1,4 @@
-<!--Spring2024
-Will Briggs
+<!--
 This file logout.php contain the logout stuffs and return user to same page to and display the form
 Suraj Sedai
 -->

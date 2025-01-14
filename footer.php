@@ -1,5 +1,4 @@
-<!--Spring2024
-Will Briggs
+<!--
 This file footer.php contain the footer element of the main page
 Suraj Sedai
 -->

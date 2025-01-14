@@ -1,5 +1,4 @@
-<!--Spring2024
-Will Briggs
+<!--
 This file register_process.php contain the register stuffs and when user rigester 
 that will put the username and password in database and handle this things
 Suraj Sedai
