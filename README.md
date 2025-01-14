@@ -4,7 +4,7 @@ To-Do Task
 Description
 -------------
 
-A simple web-based to-do list application where users can create, delete, and manage tasks. This project allows users to register, log in, and track their tasks. Built with PHP for the backend and styled using CSS and Simple Js.
+A simple web-based to-do list application where users can create, delete, and manage tasks. This project allows users to register, log in, and track their tasks. Built with PHP for the backend and styled using CSS and JavaScript for enhanced functionality.
 
 
 Features
