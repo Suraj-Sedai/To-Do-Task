@@ -112,51 +112,6 @@ if(isset($_POST['login'])) {
     </header>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <script>
-        function toggleDarkMode() {
-            var body = document.body;
-            body.classList.toggle("dark-mode");
-            
-            var button = document.getElementById("dark-mode-toggle-button");
-            var isDarkMode = body.classList.contains("dark-mode");
-            
-            if (isDarkMode) {
-                button.textContent = "Light Mode";
-            } else {
-                button.textContent = "Dark Mode";
-            }
-        }
-
-        // Check local storage for dark mode preference on page load
-        window.onload = function() {
-            const isDarkMode = JSON.parse(localStorage.getItem("darkMode"));
-            if (isDarkMode) {
-                document.body.classList.add("dark-mode");
-            }
-        }
-        document.querySelectorAll('.expand-button').forEach(button => {
-         button.addEventListener('click', () => {
-        const expandedInfo = button.nextElementSibling;
-        expandedInfo.classList.toggle('show'); // Toggle visibility
-    });
-});
-
-
-        $(document).ready(function() {
-            // Show registration form
-            $('#show-register').click(function(e) {
-                e.preventDefault();
-                $('#login-form').hide();
-                $('#register-form').show();
-            });
-
-            // Show login form
-            $('#show-login').click(function(e) {
-                e.preventDefault();
-                $('#login-form').show();
-                $('#register-form').hide();
-            });
-        });
-    </script>
+    <script src="script.js"></script>
 </body>
 </html>
