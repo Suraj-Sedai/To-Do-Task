@@ -75,7 +75,7 @@ if(isset($_POST['login'])) {
 <body>
     <header>
         <div class="logo">
-            <img src="logo.png" alt="Task Tracker Logo">
+            <img src="src/logo.png" alt="Task Tracker Logo">
         </div>
         <nav>
             
